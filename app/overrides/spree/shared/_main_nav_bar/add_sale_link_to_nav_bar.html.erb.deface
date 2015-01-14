@@ -1,0 +1,2 @@
+<!-- insert_after "li#home-link" -->
+<li id="sale-link" data-hook><%= link_to Spree.t(:sale), spree.sale_path %></li>

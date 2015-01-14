@@ -1,0 +1,6 @@
+<!-- insert_top "span.price" -->
+<% if product.on_sale? %>
+  <span class="old-price">
+    <%= display_original_price(product) %>
+  </span>
+<% end %>
